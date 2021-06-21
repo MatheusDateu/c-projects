@@ -1,6 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
 
 int main(){
 	int L,C,i,j,posi;
