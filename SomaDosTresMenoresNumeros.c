@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+#include <locale.h>
 
-int main(){
+int main(void){
+	setlocale(LC_ALL,"Portuguese");
 	int numero1, numero2, numero3, numero4, soma;
 	scanf("%d",&numero1);
 	scanf("%d",&numero2);
@@ -19,10 +21,9 @@ int main(){
 		soma = numero1 + numero2 + numero4;
 		printf("%d\n",soma);
 	}
-	else if(numero4 > numero1 && numero4 > numero2 && numero4 > numero3)
-	{
-	soma = numero1 + numero2 + numero3;
-	printf("%d\n",soma);
+	else if(numero4 > numero1 && numero4 > numero2 && numero4 > numero3){
+		soma = numero1 + numero2 + numero3;
+		printf("%d\n",soma);
 	}
 	
 	system("PAUSE");
