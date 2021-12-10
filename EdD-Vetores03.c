@@ -6,7 +6,7 @@ main(){
     
     
     for(i=0; i<20; i++){
-        printf("Digite o %d° valor: " ,i+1);
+        printf("Digite o %d° valor= " ,i+1);
         scanf("%d", &n);
         vet[i]=n;
         
@@ -20,9 +20,9 @@ main(){
             me++;
         }
     }
-    printf("Numeros maiores que o primeiro valor: %d\n", ma);
-    printf("Numeros iguais que o primeiro valor: %d\n", ig-1);
-    printf("Numeros menores que o primeiro valor: %d\n", me);
+    printf("Numeros maiores que o primeiro valor= %d\n", ma);
+    printf("Numeros iguais que o primeiro valor= %d\n", ig-1);
+    printf("Numeros menores que o primeiro valor= %d\n", me);
     
     system("PAUSE");
 }
